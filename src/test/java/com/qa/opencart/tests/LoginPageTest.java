@@ -26,7 +26,7 @@ public class LoginPageTest extends BaseTest {
 	}
 
 	@Description("login page url test....")
-	@Severity(SeverityLevel.NORMAL)
+	@Severity(SeverityLevel.CRITICAL)
 	@Test
 	public void loginPageUrlTest() {
 		String url = loginPage.getLoginPageUrl();
